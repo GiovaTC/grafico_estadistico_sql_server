@@ -1,0 +1,9 @@
+﻿namespace MvcGraficosApp.Models
+{
+    public class Producto
+    {
+        public int Id { get; set; }
+        public decimal Precio { get; set; }
+        public DateTime FechaAlta { get; set; }
+    }
+}
